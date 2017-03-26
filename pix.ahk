@@ -1,5 +1,7 @@
 Loop, 500
 {
+	if GetKeyState("F2", "P")
+		break
 	Send {Return}
 	Sleep, 2000
 	Send {Return}
